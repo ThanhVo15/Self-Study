@@ -59,7 +59,9 @@ print('*'*15)
 ***************
 ### 1.7.2 Format giá trị
 ![Alt text](image.png)
-<!-- **Input**
+<pre>
+```
+**Input**
 print('-'* 20)
 print('{0:^4} {1:>15}'.format('STT', 'Giá tri'))
 print('-'* 20)
@@ -88,7 +90,9 @@ STT          Giá tri
  8              1000
  9               100
  10               10
--------------------- -->
+--------------------
+```
+</pre>
 ## 1.8 Các loại lỗi khác nhau
 - Lỗi cú pháp: Lỗi cho Amateur
 - Lỗi thực thi
@@ -96,14 +100,16 @@ STT          Giá tri
 -> Làm sao để bắt lỗi?
 ## 1.9 Bài tập rèn luyện, tính chu vi diện tích hình tròn
 **Đề bài:** Nhập bán kính đường tròn r. Tính và xuất chu vi, diện tích đường tròn tương ứng
-<!-- **Code**
+</pre>
+```
+**Code**
 r = float(input("Mời bạn nhập bán kính đường tròn:"))
 cv = round(r*2*math.pi, 3)
 s = round(math.pi*r, 3)
 print("Chu vi của đường tròn là:", cv)
-print("Diện tích đường tròn là:", s) -->
-
-
+print("Diện tích đường tròn là:", s)
+```
+</pre>
 
 Coi tiếp ở video 11
 Pass giải nén: http://nhasachtinhoc.blogspot.com
