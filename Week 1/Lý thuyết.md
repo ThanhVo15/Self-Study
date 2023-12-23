@@ -75,8 +75,8 @@ print('-'* 20)
 print('{0:^4} {1:>15}'.format('STT', 'Giá tri'))
 print('-'* 20)
 print('{0:>4} {1:>15}'.format(1, 10**10)) #Căn phải
-print('{0:^4} {1:>15}'.format(2, 10**9)) #Căn trái
-print('{0:<4} {1:>15}'.format(3, 10**8)) # Căn giữa
+print('{0:^4} {1:>15}'.format(2, 10**9)) #Căn giữa
+print('{0:<4} {1:>15}'.format(3, 10**8)) # Căn trái
 print('{0:^4} {1:>15}'.format(4, 10**7))
 print('{0:^4} {1:>15}'.format(5, 10**6))
 print('{0:^4} {1:>15}'.format(6, 10**5))
