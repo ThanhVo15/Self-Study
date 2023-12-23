@@ -1,4 +1,4 @@
-# 1. First Lesson (2:30 a.m. 21/12/20230)
+# 1. LÀM CHỦ PYTHON - First Lesson (2:30 a.m. 21/12/20230)
 ## 1.1 Các kiểu dữ liệu cơ bản trong Python
 - **Int:** Kiểu số nguyên ( Không có chứa dấu chấm thập phân), có thể là các số dương hoặc âm
 Ví dụ: 113, -114
@@ -107,12 +107,12 @@ STT          Giá tri
 --------------------
 ```
 </pre>
-## 1.8 Các loại lỗi khác nhau
+## 1.8 Các loại lỗi khác nhau - VIDEO 09
 - Lỗi cú pháp: Lỗi cho Amateur
 - Lỗi thực thi
 - Lỗi logic- Lỗi Nghiệp Vụ
 -> Làm sao để bắt lỗi?
-## 1.9 Bài tập rèn luyện, tính chu vi diện tích hình tròn
+## 1.9 Bài tập rèn luyện, tính chu vi diện tích hình tròn - VIDEO 10
 **Đề bài:** Nhập bán kính đường tròn r. Tính và xuất chu vi, diện tích đường tròn tương ứng
 </pre>
 ```
