@@ -44,7 +44,7 @@ print(x)
 ![Alt text](image-5.png)
 ### 1.5.5 Độ ưu tiên toán tử
 Dùng ngoặc () để ưu tiên nhóm nào làm trước
-### 1.6 Cách nhập liệu từ bàn phím trong Python
+## 1.6 Cách nhập liệu từ bàn phím trong Python
 - Nhập bằng input(), đầu ra hiểu bằng chuỗi. 
 **Ví dụ 1:** Cách nhập thông thường
 print("Mời bạn nhập str:")
@@ -52,6 +52,58 @@ x = input()
 **Ví dụ 2:** Cách nhập định dạng luôn kiểu của giá trị nhập 
 x = int(input())
 x = float(input())
+## 1.7 Cách xuất dữ liệu 
+### 1.7.1 Cách xuất dữ liệu nhiều lần
+print('*'*15)
+**Kết quả:**
+***************
+### 1.7.2 Format giá trị
+![Alt text](image.png)
+**Input**
+print('-'* 20)
+print('{0:^4} {1:>15}'.format('STT', 'Giá tri'))
+print('-'* 20)
+print('{0:>4} {1:>15}'.format(1, 10**10)) #Căn phải
+print('{0:^4} {1:>15}'.format(2, 10**9)) #Căn trái
+print('{0:<4} {1:>15}'.format(3, 10**8)) # Căn giữa
+print('{0:^4} {1:>15}'.format(4, 10**7))
+print('{0:^4} {1:>15}'.format(5, 10**6))
+print('{0:^4} {1:>15}'.format(6, 10**5))
+print('{0:^4} {1:>15}'.format(7, 10**4))
+print('{0:^4} {1:>15}'.format(8, 10**3))
+print('{0:^4} {1:>15}'.format(9, 10**2))
+print('{0:^4} {1:>15}'.format(10, 10**1))
+print('-'* 20)
+**Output**
+--------------------
+STT          Giá tri
+--------------------
+   1     10000000000
+ 2        1000000000
+3          100000000
+ 4          10000000
+ 5           1000000
+ 6            100000
+ 7             10000
+ 8              1000
+ 9               100
+ 10               10
+--------------------
+## 1.8 Các loại lỗi khác nhau
+- Lỗi cú pháp: Lỗi cho Amateur
+- Lỗi thực thi
+- Lỗi logic- Lỗi Nghiệp Vụ
+-> Làm sao để bắt lỗi?
+## 1.9 Bài tập rèn luyện, tính chu vi diện tích hình tròn
+**Đề bài:** Nhập bán kính đường tròn r. Tính và xuất chu vi, diện tích đường tròn tương ứng
+**Code**
+r = float(input("Mời bạn nhập bán kính đường tròn:"))
+cv = round(r*2*math.pi, 3)
+s = round(math.pi*r, 3)
+print("Chu vi của đường tròn là:", cv)
+print("Diện tích đường tròn là:", s)
 
-Đang dừng ở video 8
+
+
+Coi tiếp ở video 11
 Pass giải nén: http://nhasachtinhoc.blogspot.com
