@@ -54,9 +54,18 @@ x = int(input())
 x = float(input())
 ## 1.7 Cách xuất dữ liệu 
 ### 1.7.1 Cách xuất dữ liệu nhiều lần
+<pre>
+```
 print('*'*15)
+```
+</pre>
+
+<pre>
+```
 **Kết quả:**
 ***************
+```
+</pre>
 ### 1.7.2 Format giá trị
 ![Alt text](image.png)
 <pre>
@@ -76,6 +85,11 @@ print('{0:^4} {1:>15}'.format(8, 10**3))
 print('{0:^4} {1:>15}'.format(9, 10**2))
 print('{0:^4} {1:>15}'.format(10, 10**1))
 print('-'* 20)
+```
+</pre>
+
+<pre>
+```
 **Output**
 --------------------
 STT          Giá tri
