@@ -124,6 +124,17 @@ print("Chu vi của đường tròn là:", cv)
 print("Diện tích đường tròn là:", s)
 ```
 </pre>
+## 1.10 Bài tập rèn luyện - Tính giờ phút giây
+**Đề bài:** Nhập vào số giây bất kỳ t. 
+
+
+
+
+
+
+
+
+
 
 Coi tiếp ở video 11
 Pass giải nén: http://nhasachtinhoc.blogspot.com
