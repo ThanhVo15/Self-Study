@@ -126,7 +126,7 @@ print("Diện tích đường tròn là:", s)
 </pre>
 ## 1.10 Bài tập rèn luyện - Tính giờ phút giây
 **Đề bài:** Nhập vào số giây bất kỳ t. 
-dđ
+dđ 
 
 
 
